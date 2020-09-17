@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
-        stage{'state 2') {
+        stage('state 2') {
           steps {
             sh 'echo hellow from stage 2!'
           }
